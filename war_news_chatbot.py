@@ -10,7 +10,7 @@ from sentence_transformers import SentenceTransformer
 from groq import Groq
 
 # ---------------- CONFIG ----------------
-GROQ_API_KEY = "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"
+GROQ_API_KEY = "enter your api key"
 client = Groq(api_key=GROQ_API_KEY)
 
 embed_model = SentenceTransformer("paraphrase-MiniLM-L6-v2")
